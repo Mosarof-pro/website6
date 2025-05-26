@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.forme{
+    margin-top: 20px;
+    
+}
+div{
+    margin-left: 20px;
+}
+fieldset{
+    margin-left: 20px;
+}
+.label-1{
+    font-size: 25px;
+}
+.input-1{
+    padding: 5px 0;
+    font-size: 20px;
+}
+.b{
+    margin-right: 20px;
+}
