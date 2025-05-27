@@ -7,7 +7,7 @@
     margin: auto;
 }
 .forme{
-    margin-top: 20px;
+    margin: 20px 0;
     
 }
 div{
@@ -25,4 +25,13 @@ fieldset{
 }
 .b{
     margin-right: 20px;
+}
+.oke{
+    margin-left: 30px;
+    
+}
+.c{
+    margin-left: 10px;
+    padding: 5px 30px;
+    margin-bottom: 20px;
 }

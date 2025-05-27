@@ -20,7 +20,7 @@
                 <label class="label-1" for="name">
                     Name:
                 </label><br>
-                <input class="input-1" type="text" name="name" id="name" placeholder="Type Your name" size="50px " /> 
+                <input class="input-1" list="names" name="name" id="name" placeholder="Type Your name" size="50px " /> 
             </div><br>
             <div>
                 <label class="label-1" for="email"> Email:</label><br>
@@ -67,19 +67,39 @@
                     </select>
                 </div>
             </fieldset><br>
-            <div>
+            
+            <fieldset>
+                <div>
                 <label class="label-1" for="color">Color</label>
                 <input type="color"><br><br>
                 <label class="label-1" for="data">Data</label>
                 <input class="label-1" type="date"><br><br>
                 <label class="label-1" for="">Uplode your file</label>
-                <input class="label-1" type="file"><br>
-                <label for="">time</label>
-                <input class="label-1" type="datetime-local">
+                <input class="label-1" type="file"><br><br>
+                <label class="label-1" for="">Time:</label>
+                <input class="label-1" type="datetime-local"><br><br>
+                <label class="label-1" for="Month">Month:</label>
+                <input class="label-1" type="month" id="month">
                 
+            </div><br>
+            <datalist id="names">
+                <option value="mosarof">
+                <option value="munir">
+                <option value="rubai">
+                <option value="shakib">
+                <option value="kamrul">
+
+            </datalist>
+            <label class="label-1" for="comment">Comment:</label>
+            <textarea class="label-1" name="comment" id="comment" rows="10px" cols="40px" placeholder="type your comment and note"></textarea>
+            </fieldset><br><br>
+            <div class="oke">
+                
+            <input class="label-1 c" type="submit" value="Submit">
+            <input class="label-1 c" type="reset" name="reset" id="" value="Reset all">
             </div>
-           
         </fieldset>
+        
     </form>
 
 
