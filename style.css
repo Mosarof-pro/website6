@@ -35,3 +35,30 @@ fieldset{
     padding: 5px 30px;
     margin-bottom: 20px;
 }
+/* home-page */
+.container{
+    width: 50%;
+    margin:40px auto;
+    background-color: aquamarine;
+    padding: 60px;
+   color: blueviolet;
+    border: 8px dashed blueviolet;
+    text-align: center;
+}
+button{
+    background-color: blue;
+    padding: 10px 25px;
+    margin-top: 8px;
+    border-radius: 8px;
+    transition: 2s;
+}
+.button-1 a{
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    /* background-color: brown; */
+    color: white;
+}
+button:hover{
+    background-color: chocolate;
+}
