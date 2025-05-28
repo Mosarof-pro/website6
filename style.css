@@ -204,3 +204,62 @@ fieldset{
     margin-top: 25px;
     margin-right: 25px;
 }
+/* other */
+.other{
+    padding: 50px 0;
+}
+.other-optin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.crad{
+    
+    background-color: #fefeff;
+    font-size: 30px;
+    padding: 33px 41px;
+    border-radius: 30px ;
+    margin-top: 20px;
+}
+.other-option2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+/* other-end */
+.all-32{
+    width: 50%;
+    margin: auto;
+   padding: 20px 0;
+}
+form{
+    border-radius: 20px;
+}
+fieldset{
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0 white;
+}
+.com{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: -20px;
+}
+.sub{
+    margin-left: px;
+}
+/* footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
