@@ -239,17 +239,18 @@ form{
 fieldset{
     padding: 50px;
     border-radius: 20px;
-    box-shadow: 0px 0px 50px 0 white;
+    box-shadow: 0px 0px 50px 0 rgb(0, 0, 0);
 }
 .com{
-    display: flex;
+    
     align-items: center;
     justify-content: start;
-    margin-left: -20px;
+    margin-left: -10px;
 }
 .sub{
     margin-left: px;
 }
+
 /* footer */
 .footer {
   background-color: #222;
